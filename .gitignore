@@ -1,0 +1,41 @@
+# CMake 构建目录
+/build/
+/build-*/
+/cmake-build-*/
+
+# 意外在源码根目录生成的 CMake 文件
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/install_manifest.txt
+/CTestTestfile.cmake
+/DartConfiguration.tcl
+/Testing/
+/Makefile
+/build.ninja
+/.ninja_deps
+/.ninja_log
+/compile_commands.json
+
+# 本机 CMake 配置；共享配置 CMakePresets.json 可以提交
+/CMakeUserPresets.json
+
+# 编译、调试产物
+*.o
+*.a
+*.dylib
+*.dSYM/
+
+# 按 README 手动克隆的依赖，避免将嵌套 Git 仓库误提交
+/third_party/mac-angle/
+
+# macOS 与本地编辑器文件
+.DS_Store
+._*
+/.idea/
+/.vscode/
+/.cache/
+/.docs/
+*.swp
+*.swo
+*~
