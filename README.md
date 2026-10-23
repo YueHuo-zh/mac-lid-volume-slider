@@ -279,9 +279,14 @@ cmake --build build --target MacLidVolumeSlider
 
 ## 依赖与参考资料
 
-- [ufoym/mac-angle](https://github.com/ufoym/mac-angle)：传感器读取库，使用 MIT 许可证，见 [第三方 LICENSE](third_party/mac-angle/LICENSE)。
+- [ufoym/mac-angle](https://github.com/ufoym/mac-angle)：传感器读取库，使用 MIT 许可证，见 [上游 LICENSE](https://github.com/ufoym/mac-angle/blob/main/LICENSE) 和 [第三方声明](THIRD_PARTY_NOTICES.md)。
 - [Apple Core Audio Overview](https://developer.apple.com/library/archive/documentation/MusicAudio/Conceptual/CoreAudioOverview/WhatisCoreAudio/WhatisCoreAudio.html)：理解音频系统的概念；这是归档文档，具体接口以本机 SDK 为准。
 - [Apple IOHIDManager](https://developer.apple.com/documentation/iokit/iohidmanager_h)：HID 设备管理接口。
 - [CMake 官方教程](https://cmake.org/cmake/help/latest/guide/tutorial/index.html)：学习目标、源码和库依赖的组织方式。
 
-第三方库的许可证保留在其源码目录中；本文不为本项目自身代码新增许可证。
+## 许可证
+
+本项目采用 [MIT License](LICENSE)，Copyright (c) 2026 YueHuo-zh。
+
+第三方库保留原作者的版权与许可证，完整声明收录在 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+发布包含该库的源码或编译后程序时，请一并附带本项目的 `LICENSE` 和第三方声明文件。
